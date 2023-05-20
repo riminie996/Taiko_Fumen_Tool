@@ -1,0 +1,17 @@
+MAX_TIME:1.0
+
+TYPE:Opacity
+MOVE:Decele
+TIME:0.0
+PARAM:0.0
+#PUSH
+
+MOVE:Accele
+TIME:0.5
+PARAM:1.0
+#PUSH
+
+MOVE:Decele
+TIME:1.0
+PARAM:0.0
+#PUSH

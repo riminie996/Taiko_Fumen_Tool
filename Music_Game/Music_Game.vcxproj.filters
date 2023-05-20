@@ -1,0 +1,573 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="GameL">
+      <UniqueIdentifier>{eb25b0d3-af76-4fe8-ad1d-68bfebb45b0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="クラス">
+      <UniqueIdentifier>{3b5354d8-e50f-4919-afb5-e183f9675a37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MusicGame">
+      <UniqueIdentifier>{2947c6b5-3828-40bd-abd2-92a81c47d5f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="7_ResultDan">
+      <UniqueIdentifier>{2cdcd9d8-0626-4782-b66c-3d98e80636be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3_Enso">
+      <UniqueIdentifier>{339b432b-4995-4b02-be1d-e442c83b8760}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3_Enso\演出">
+      <UniqueIdentifier>{951b7e6c-2219-455c-ab5c-63c3effe4806}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3_Enso\通常ゲーム">
+      <UniqueIdentifier>{bdcdbcb0-696b-4e6a-9da0-82c6645399a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3_Enso\演奏ゲーム共通">
+      <UniqueIdentifier>{e84227b3-b521-4b87-a9ff-59988eee3afa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="4_Result">
+      <UniqueIdentifier>{ed98689c-5ce1-4497-a415-39b79fb23247}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2_SongSelect">
+      <UniqueIdentifier>{4aca0228-9e9c-482e-8ccc-7e3120508ff6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="5_DanSelect">
+      <UniqueIdentifier>{bcce3827-c6e3-4f39-9188-b86f0207359e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="6_DanEnso">
+      <UniqueIdentifier>{3d1b65be-840d-4d45-89f5-1a663530913b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1_Entry">
+      <UniqueIdentifier>{f4a09b5d-8e20-4f5e-90d5-8664579895a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00_Common">
+      <UniqueIdentifier>{4915b668-2608-4109-8811-8d4108fb35ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="8_End">
+      <UniqueIdentifier>{2d8e4768-dc40-4947-b194-af3121298e2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="9_Heya">
+      <UniqueIdentifier>{a9c9c3b2-8fdf-4c35-9751-f278d11999d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="10_Battle">
+      <UniqueIdentifier>{e5881c57-4e58-4cb1-a357-366a1f19441b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="0_Title">
+      <UniqueIdentifier>{c0172941-9fbd-4933-ab6b-11c3cf66a26b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Program\GameL\Audio.cpp">
+      <Filter>GameL</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\GameL\DirectXDevice.cpp">
+      <Filter>GameL</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\GameL\Draw2DTex_Source.cpp">
+      <Filter>GameL</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\GameL\DrawFont.cpp">
+      <Filter>GameL</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\GameL\DrawTexture.cpp">
+      <Filter>GameL</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\GameL\GameL_Main.cpp">
+      <Filter>GameL</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\GameL\HitBoxManager.cpp">
+      <Filter>GameL</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\GameL\MultiThread.cpp">
+      <Filter>GameL</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\GameL\SceneManager.cpp">
+      <Filter>GameL</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\GameL\SceneObjManager.cpp">
+      <Filter>GameL</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\GameL\SetWindow.cpp">
+      <Filter>GameL</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\GameL\UserData.cpp">
+      <Filter>GameL</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\GameL\WinInputs.cpp">
+      <Filter>GameL</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\Scenemain.cpp">
+      <Filter>3_Enso</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\CControllerInput.cpp">
+      <Filter>クラス</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\CCounter.cpp">
+      <Filter>クラス</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\CFIFO.cpp">
+      <Filter>クラス</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\CNumTexSource.cpp">
+      <Filter>クラス</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\CTimeCounter.cpp">
+      <Filter>クラス</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\Function.cpp">
+      <Filter>クラス</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\CEnsoData.cpp">
+      <Filter>MusicGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\CObjCombo.cpp">
+      <Filter>3_Enso\演奏ゲーム共通</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\CObjEnso.cpp">
+      <Filter>3_Enso\演奏ゲーム共通</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\CObjJudgeMoji.cpp">
+      <Filter>3_Enso\演奏ゲーム共通</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\CObjLane.cpp">
+      <Filter>3_Enso\演奏ゲーム共通</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\CObjNotes.cpp">
+      <Filter>3_Enso\演奏ゲーム共通</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\MusicGame.cpp">
+      <Filter>MusicGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\CFileFormat.cpp">
+      <Filter>クラス</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\CAnime.cpp">
+      <Filter>クラス</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\CObjMTaiko.cpp">
+      <Filter>3_Enso\演奏ゲーム共通</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\CObjNormaGauge.cpp">
+      <Filter>3_Enso\演奏ゲーム共通</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\CObjScore.cpp">
+      <Filter>3_Enso\演奏ゲーム共通</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\SceneSongSelect.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\CObjSongSelect.cpp">
+      <Filter>2_SongSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\CObjDiffcultySelect.cpp">
+      <Filter>2_SongSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\CObjSystem.cpp">
+      <Filter>MusicGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\CAnime2.cpp">
+      <Filter>クラス</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\CObjResult.cpp">
+      <Filter>4_Result</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\CObjResultBg.cpp">
+      <Filter>4_Result</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\CObjBalloon.cpp">
+      <Filter>3_Enso\演出</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\CObjCharacter.cpp">
+      <Filter>3_Enso\演出</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\CObjComboBalloon.cpp">
+      <Filter>3_Enso\演出</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\CObjRoll.cpp">
+      <Filter>3_Enso\演出</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\CObjFlyingNotes.cpp">
+      <Filter>3_Enso\演出</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\CObjEnsoEndEffect.cpp">
+      <Filter>3_Enso\演出</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\CObjBg.cpp">
+      <Filter>3_Enso\通常ゲーム</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\CObjLoading.cpp">
+      <Filter>3_Enso\通常ゲーム</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\CObjEnsoOption.cpp">
+      <Filter>2_SongSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\CObjDanResult.cpp">
+      <Filter>7_ResultDan</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\CObjDanResultPanel.cpp">
+      <Filter>7_ResultDan</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\CObjDanResultSongPanel.cpp">
+      <Filter>7_ResultDan</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\CObjTitlePanel.cpp">
+      <Filter>3_Enso\演奏ゲーム共通</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\CObjDanC.cpp">
+      <Filter>6_DanEnso</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\CObjDanSelect.cpp">
+      <Filter>5_DanSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\CObjDanSelectConfirm.cpp">
+      <Filter>5_DanSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\CObjEntry.cpp">
+      <Filter>1_Entry</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\CObjModeSelect.cpp">
+      <Filter>1_Entry</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\CObjEntryBG.cpp">
+      <Filter>1_Entry</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\CObjSpark.cpp">
+      <Filter>3_Enso\演出</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\CObjTimer.cpp">
+      <Filter>00_Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\CObjNowSong.cpp">
+      <Filter>00_Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\CObjSongSelectBG.cpp">
+      <Filter>2_SongSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\CObjExit.cpp">
+      <Filter>8_End</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\CObjKusudama.cpp">
+      <Filter>3_Enso\演出</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\CLayout.cpp">
+      <Filter>クラス</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\CObjDancer.cpp">
+      <Filter>3_Enso\演出</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\CAnime3.cpp">
+      <Filter>クラス</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\CObjFooter.cpp">
+      <Filter>3_Enso\通常ゲーム</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\CObjSongSelectCharacter.cpp">
+      <Filter>2_SongSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\CLayoutGroup.cpp">
+      <Filter>クラス</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\CObjHeya.cpp">
+      <Filter>9_Heya</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\CObjEnsoBattle.cpp">
+      <Filter>10_Battle</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\CObjBattleGauge.cpp">
+      <Filter>10_Battle</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\CLayout2.cpp">
+      <Filter>クラス</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\CObjBattleEndEffect.cpp">
+      <Filter>10_Battle</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\CObjScorePanel.cpp">
+      <Filter>2_SongSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\CObjStatusPanel.cpp">
+      <Filter>2_SongSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\CObjNamePlate.cpp">
+      <Filter>00_Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\CObjControllGuide.cpp">
+      <Filter>00_Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\CObjTitle.cpp">
+      <Filter>0_Title</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\CObjBattleCharacter.cpp">
+      <Filter>10_Battle</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\CObjResultGauge.cpp">
+      <Filter>4_Result</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Program\GameL\Audio.h">
+      <Filter>GameL</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\GameL\DirectXDevice.h">
+      <Filter>GameL</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\GameL\DrawFont.h">
+      <Filter>GameL</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\GameL\DrawTexture.h">
+      <Filter>GameL</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\GameL\HitBoxManager.h">
+      <Filter>GameL</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\GameL\MultiThread.h">
+      <Filter>GameL</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\GameL\SceneManager.h">
+      <Filter>GameL</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\GameL\SceneObjManager.h">
+      <Filter>GameL</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\GameL\SetWindow.h">
+      <Filter>GameL</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\GameL\UserData.h">
+      <Filter>GameL</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\GameL\WinInputs.h">
+      <Filter>GameL</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\SceneMain.h">
+      <Filter>3_Enso</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\CControllerInput.h">
+      <Filter>クラス</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\CCounter.h">
+      <Filter>クラス</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\CFIFO.h">
+      <Filter>クラス</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\CNumTexSource.h">
+      <Filter>クラス</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\CTimeCounter.h">
+      <Filter>クラス</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Function.h">
+      <Filter>クラス</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\GameHead.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\main.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\MusicGame.h">
+      <Filter>MusicGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\CEnsoData.h">
+      <Filter>MusicGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\CObjCombo.h">
+      <Filter>3_Enso\演奏ゲーム共通</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\CObjEnso.h">
+      <Filter>3_Enso\演奏ゲーム共通</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\CObjJudgeMoji.h">
+      <Filter>3_Enso\演奏ゲーム共通</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\CObjLane.h">
+      <Filter>3_Enso\演奏ゲーム共通</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\CObjNotes.h">
+      <Filter>3_Enso\演奏ゲーム共通</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\dirent.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\CFileFormat.h">
+      <Filter>クラス</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\CAnime.h">
+      <Filter>クラス</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\CObjMTaiko.h">
+      <Filter>3_Enso\演奏ゲーム共通</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\CObjNormaGauge.h">
+      <Filter>3_Enso\演奏ゲーム共通</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\CObjScore.h">
+      <Filter>3_Enso\演奏ゲーム共通</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\CObjSongSelect.h">
+      <Filter>2_SongSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\CObjDiffcultySelect.h">
+      <Filter>2_SongSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\CObjSystem.h">
+      <Filter>MusicGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\CAnime2.h">
+      <Filter>クラス</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\CObjResult.h">
+      <Filter>4_Result</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\SceneSongSelect.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\CObjResultBg.h">
+      <Filter>4_Result</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\CObjBalloon.h">
+      <Filter>3_Enso\演出</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\CObjCharacter.h">
+      <Filter>3_Enso\演出</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\CObjComboBalloon.h">
+      <Filter>3_Enso\演出</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\CObjRoll.h">
+      <Filter>3_Enso\演出</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\CObjFlyingNotes.h">
+      <Filter>3_Enso\演出</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\CObjEnsoEndEffect.h">
+      <Filter>3_Enso\演出</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\CObjBg.h">
+      <Filter>3_Enso\通常ゲーム</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\CObjLoading.h">
+      <Filter>3_Enso\通常ゲーム</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\CObjEnsoOption.h">
+      <Filter>2_SongSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\CObjDanResult.h">
+      <Filter>7_ResultDan</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\CObjDanResultPanel.h">
+      <Filter>7_ResultDan</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\CObjDanResultSongPanel.h">
+      <Filter>7_ResultDan</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\CObjTitlePanel.h">
+      <Filter>3_Enso\演奏ゲーム共通</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\CObjDanC.h">
+      <Filter>6_DanEnso</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\CObjDanSelect.h">
+      <Filter>5_DanSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\CObjDanSelectConfirm.h">
+      <Filter>5_DanSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\CObjEntry.h">
+      <Filter>1_Entry</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\CObjModeSelect.h">
+      <Filter>1_Entry</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\CObjEntryBG.h">
+      <Filter>1_Entry</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\CObjSpark.h">
+      <Filter>3_Enso\演出</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\CObjTimer.h">
+      <Filter>00_Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\CObjNowSong.h">
+      <Filter>00_Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\CObjSongSelectBG.h">
+      <Filter>2_SongSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\CObjExit.h">
+      <Filter>8_End</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\CObjKusudama.h">
+      <Filter>3_Enso\演出</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\CLayout.h">
+      <Filter>クラス</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\CObjDancer.h">
+      <Filter>3_Enso\演出</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\CAnime3.h">
+      <Filter>クラス</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\CObjFooter.h">
+      <Filter>3_Enso\通常ゲーム</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\CObjSongSelectCharacter.h">
+      <Filter>2_SongSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\CLayoutGroup.h">
+      <Filter>クラス</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\CObjHeya.h">
+      <Filter>9_Heya</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\CObjEnsoBattle.h">
+      <Filter>10_Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\CObjBattleGauge.h">
+      <Filter>10_Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\CLayout2.h">
+      <Filter>クラス</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\CObjBattleEndEffect.h">
+      <Filter>10_Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\CObjScorePanel.h">
+      <Filter>2_SongSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\CObjStatusPanel.h">
+      <Filter>2_SongSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\CObjNamePlate.h">
+      <Filter>00_Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\CObjControllGuide.h">
+      <Filter>00_Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\CObjTitle.h">
+      <Filter>0_Title</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\CObjBattleCharacter.h">
+      <Filter>10_Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\CObjResultGauge.h">
+      <Filter>4_Result</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="仕様.txt" />
+  </ItemGroup>
+</Project>

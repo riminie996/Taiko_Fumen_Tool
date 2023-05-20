@@ -1,0 +1,17 @@
+MAX_TIME:0.35
+
+TYPE:Opacity
+MOVE:Normal
+TIME:0.0
+PARAM:0.7
+#PUSH
+
+MOVE:Normal
+TIME:0.175
+PARAM:0.8
+#PUSH
+
+MOVE:Normal
+TIME:0.35
+PARAM:0.7
+#PUSH

@@ -1,0 +1,12 @@
+MAX_TIME:0.15
+ENTRY_NAME:SoulMax
+
+TYPE:Opacity
+MODE:Teleport
+TIME:0.0
+PARAM:0.0
+#PUSH
+MODE:Teleport
+TIME:0.075
+PARAM:0.5
+#PUSH

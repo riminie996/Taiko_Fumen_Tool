@@ -1,0 +1,18 @@
+#include "CObjNamePlate.h"
+#include "GameL/Audio.h"
+#include "GameL/UserData.h"
+#include "GameHead.h"
+
+//èâä˙âª
+void CObjNamePlate::Init()
+{
+
+}
+//êiçs
+void CObjNamePlate::Action()
+{
+}
+//ï`âÊ
+void CObjNamePlate::Draw()
+{
+}

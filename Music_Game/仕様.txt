@@ -1,0 +1,44 @@
+音ゲーの仕様
+
+ST譜面情報
+{
+TITLE,
+SUBTITLE,
+BPM,
+OFFSET,
+DEMO,
+WAVE,
+DIFFCULTY,
+
+list<STNotes>
+
+enum DIFFCULTY
+{
+	EASY,
+	NORMAL,
+	HARD,
+}
+struct STNotes
+{
+	ノーツ種類,
+	本来あるべき場所,
+	判定枠と重なる時間,
+
+}
+
+
+}
+
+ST演奏情報
+{
+	現在のBPM,
+	現在の経過時間,
+	拍子,
+	終了時間
+	Perfect数,
+	Great数,
+	OK数,
+	Miss数,
+	コンボ数,
+}
+

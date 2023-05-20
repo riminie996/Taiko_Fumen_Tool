@@ -1,0 +1,13 @@
+MAX_TIME:2.7
+
+TYPE:PosX
+MOVE:Normal
+TIME:0.0
+PARAM:0.0
+#PUSH
+
+MOVE:Normal
+TIME:2.7
+PARAM:328.0
+#PUSH
+
